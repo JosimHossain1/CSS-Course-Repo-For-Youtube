@@ -1,11 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learning CSS</title>
+  <title>Kola</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+  <!-- Start here -->
+
+  <!-- Header Area  Start-->
+  <header>
+    <!-- Navbar -->
+    <nav class="container">
+
+      <!-- Logo -->
+      <img src="/asset/logo.png" alt="Logo">
+
+      <!-- Menu Items -->
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+
+      <!-- Icons -->
+
+      <div>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-cart-arrow-down"></i>
+      </div>
+    </nav>
+
+    <!-- Hero Area -->
+
+    <div class="heroArea container">
+      <!-- Text side -->
+      <div class="text">
+        <h4>Fresh Food</h4>
+        <h1>100% <span class="natural">Natural</span> from the FARM</h1>
+        <button>Shop Now</button>
+      </div>
+
+      <!-- Righ Side -->
+      <div class="rightImage">
+        <img src="/asset/dalim.png" alt="">
+      </div>
+    </div>
+
+
+  </header>
+  <!-- Header Area  End-->
+
+  <main>
+    <!-- About -->
+    <section class="aboutSection">
+      <div class="container">
+        <div class="wrapper">
+          <!-- Left side -->
+          <div class="imageSide">
+            <img src="/asset/imgi_17_banner5.png" alt="">
+          </div>
+
+          <!-- Right SIde -->
+          <div class="rightSide">
+            <div class="circleAbout">
+              <span>01</span>
+              <h1>About Us</h1>
+            </div>
+            <p>Ut placerat semper eros, tempor porttitor ipsum blandit ut. Orci varius natoque penatibus et magnis dis
+              parturient montes, nascetur ridiculus mus. Vestibulum nec consectetur massa sapien in faucibus laoreet,
+              erat leo egestas odio, vel pulvinar urna justo at leo.suscipit. Integer finibus fringilla auctor. Donec
+              vitae augue eu tellus varius sodales ac ut lorem….</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonialSection">
+      <div class="container">
+        <div class="wrapper">
+          <!-- Left side for image -->
+          <div>
+            <img src="/asset/imgi_18_banner6.png" alt="">
+          </div>
+
+          <!-- Right Side for Text -->
+          <div class="rightSide">
+            <!-- Testimonial Text -->
+            <div class="testmonialText">
+              <span>02</span>
+              <h1>Testimonial</h1>
+            </div>
+
+            <!-- 3 card wrapper -->
+            <div>
+              <!-- Card 1 -->
+              <div class="card card1">
+                <img src="/asset/imgi_19_testimonials3.jpg" alt="">
+                <div>
+                  <h2>Shetty Jamie</h2>
+                  <hr>
+                  <h5>Designer</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, error!</p>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="card card2">
+                <img src="/asset/imgi_20_testimonials2.jpg" alt="">
+                <div>
+                  <h2>Shetty Jamie</h2>
+                  <hr>
+                  <h5>Designer</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, error!</p>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="card card3">
+                <img src="/asset/imgi_21_testimonials1.jpg" alt="">
+                <div>
+                  <h2>Shetty Jamie</h2>
+                  <hr>
+                  <h5>Designer</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, error!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="productSection">
+      <div class="container">
+        <div class="wrappper">
+          <!-- Text er jonno -->
+          <div class="testmonialText">
+            <span>03</span>
+            <h1>Featured Products</h1>
+          </div>
+
+          <!-- Product Cards -->
+          <div class="productCards">
+            <!-- Card 1 -->
+            <div class="card card1">
+              <div>
+                <img src="/asset/imgi_22_product-7-470x470.jpg" alt="">
+              </div>
+              <div class="productText">
+                <h3>Orange</h3>
+                <h3>$20.50</h3>
+                <span>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </span>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card card2">
+              <div>
+                <img src="/asset/imgi_22_product-7-470x470.jpg" alt="">
+              </div>
+              <div class="productText">
+                <h3>Orange</h3>
+                <h3>$20.50</h3>
+                <span>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </span>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card card3">
+              <div>
+                <img src="/asset/imgi_22_product-7-470x470.jpg" alt="">
+              </div>
+              <div class="productText">
+                <h3>Orange</h3>
+                <h3>$20.50</h3>
+                <span>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </span>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="card card4">
+              <div>
+                <img src="/asset/imgi_22_product-7-470x470.jpg" alt="">
+              </div>
+              <div class="productText">
+                <h3>Orange</h3>
+                <h3>$20.50</h3>
+                <span>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+
+    <section class="newsletter">
+      <div class="container">
+        <div class="wrapper">
+          <div class="newsletterTitle">
+            <h1>Newsletter
+            </h1>
+            <img src="/asset/imgi_53_bottom.png" alt="">
+
+            <div class="inputs">
+              <p>Get E-mail updates about our latest shop and special offers.
+              </p>
+
+              <div class="inputBox">
+                <input type="email" placeholder="Your Email Address...">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase -->
+    <section class="showcase">
+      <div class="container">
+        <div class="wrapper">
+          <div class="card1">
+            <img src="/asset/imgi_31_banner29.jpg" alt="">
+          </div>
+          <div class="card2">
+            <img src="/asset/imgi_32_banner30.jpg" alt="">
+          </div>
+          <div class="card3">
+            <img src="/asset/imgi_33_banner31.jpg" alt="">
+          </div>
+          <div class="card4">
+            <img src="/asset/imgi_34_banner32.jpg" alt="">
+          </div>
+          <div class="card5">
+            <h1>100%
+              Natural</h1>
+          </div>
+          <div class="card6">
+            <img src="/asset/imgi_35_banner33.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands -->
+    <section class="brand">
+      <div class="container">
+        <div class="wrapper">
+          <img src="/asset/imgi_36_brand2.png" alt="">
+          <img src="/asset/imgi_37_brand3.png" alt="">
+          <img src="/asset/imgi_36_brand2.png" alt="">
+          <img src="/asset/imgi_36_brand2.png" alt="">
+          <img src="/asset/imgi_36_brand2.png" alt="">
+          <img src="/asset/imgi_36_brand2.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="container">
+      <!-- Top Footer -->
+      <div class="top-footer">
+        <!-- Logo Div -->
+        <div class="logos">
+          <img src="/asset/logo.png" alt="">
+          <ul>
+            <li><i class="fa-solid fa-location-crosshairs"></i> <span>No 40 Baria Sreet 133/2,New York, USA.</span></li>
+
+            <li><i class="fa-solid fa-phone"></i> <span>(+01) 06738383838</span></li>
+            <li><i class="fa-solid fa-envelope"></i> <span>support@domain.com
+                demo@gmail.com</span></li>
+
+                <li class="brands">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-tiktok"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
+          </ul>
+        </div>
+
+        <!-- Information Div -->
+        <div class="infor">
+          <h1>Information</h1>
+
+          <ul>
+            <li>New Products</li>
+            <li>Our Blogs</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Top Sellers</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+
+        <!-- My Account -->
+        <div class="account">
+          <h1>My Account</h1>
+
+          <ul>
+            <li>My Account</li>
+            <li>Checkout</li>
+            <li>Validation</li>
+            <li>wishlist</li>
+            <li>Cart</li>
+            <li>Tearm of Use</li>
+          </ul>
+        </div>
+
+        <!-- Insta -->
+        <div class="intra">
+          <h1>Intragram</h1>
+          <div class="instaImage">
+            <img src="/asset/imgi_41_8.jpg" alt="">
+            <img src="/asset/imgi_42_7.jpg" alt="">
+            <img src="/asset/imgi_43_6.jpg" alt="">
+            <img src="/asset/imgi_44_5.jpg" alt="">
+            <img src="/asset/imgi_45_4.jpg" alt="">
+            <img src="/asset/imgi_46_3.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+      <hr>
+      <!-- Bootom Footer -->
+      <div class="bottom-footer">
+        <p>Copyright © 2018 Wpbingo. All rights reserved.</p>
+        <img src="/asset/imgi_49_payment.png" alt="">
+      </div>
+
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- End Here -->
 </body>
+
 </html>
